@@ -1,26 +1,51 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import Navbar from './components/Navbar/Navbar'
+import Drawer from './components/Drawer/Drawer'
+import DrawerOffButton from './components/Drawer/DrawerOffButton'
+import Hero from './components/Hero/Hero'
+import PasswordsSection from './components/PasswordsSection/PasswordsSection'
+import Faq from './components/Faq/Faq'
+import Business from './components/Business/Business'
+import Footer from './components/Footer/Footer'
+import './App.scss'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+    state = {
+        drawerOpen: false
+    };
+
+    drawerToggleClickHandler = () => {
+        this.setState((prevState) => {
+            return {drawerOpen: !prevState.drawerOpen};
+        });
+    };
+
+    drawerOffClickHandler = () => {
+        this.setState({drawerOpen: false});
+    };
+
+    render() {
+        let toggleOff;
+
+        if (this.state.drawerOpen) {
+            toggleOff = <DrawerOffButton drawerOffHandler={this.drawerOffClickHandler}/>
+        }
+        return (
+            <div className="App">
+                <Navbar drawerClickHandler={this.drawerToggleClickHandler}/>
+                <Drawer show={this.state.drawerOpen}/>
+                {toggleOff}
+                <main style={{marginTop: '64px', padding: '5%'}}>
+                    <Hero/>
+                    <PasswordsSection/>
+                    <Faq/>
+                    <Business/>
+                </main>
+                <Footer/>
+            </div>
+        );
+    }
 }
 
 export default App;

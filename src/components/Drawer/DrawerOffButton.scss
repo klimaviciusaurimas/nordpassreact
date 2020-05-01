@@ -1,0 +1,28 @@
+
+.toggle-button-off {
+  position: fixed;
+  font-size: 2.5em;
+  margin-top: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+  right: 10%;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.toggle-button-off-svg {
+  width: 25px;
+  transform: translateY(-100%);
+  transition: transform 0.5s ease-out;
+}
+
+@media (min-width: 769px) {
+  .toggle-button-off {
+    display: none;
+  }
+}

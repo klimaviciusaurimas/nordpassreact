@@ -1,0 +1,38 @@
+.footer {
+  display: grid;
+  background: white;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.engage {
+  color: #B9BABD;
+}
+
+a {
+  color: #383C43;
+}
+
+.copyright {
+  font-size: 10px;
+  line-height: 13px;
+  margin-bottom: 10px;
+}
+
+.footer-grid-left {
+  grid-area: 5 / 1 / 6 / 2;
+  margin: 3rem 5rem;
+
+}
+
+.footer-grid-right {
+  grid-area: 5 / 2 / 6 / 3;
+  margin: 7rem 0 0 50%;
+}

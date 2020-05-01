@@ -1,8 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="055be4ca-c015-40ca-8d20-b73786af24a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/logomark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/np-form-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/np-hero-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/offButton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Business/Business.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Business/Business.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Business/Business.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Business/Business.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Drawer/Drawer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Drawer/Drawer.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Drawer/Drawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Drawer/Drawer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Drawer/DrawerButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Drawer/DrawerButton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Drawer/DrawerOffButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Drawer/DrawerOffButton.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Drawer/DrawerOffButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Drawer/DrawerOffButton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Faq/Faq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Faq/Faq.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hero/Hero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hero/Hero.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hero/Hero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hero/Hero.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Mixin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Mixin.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PasswordsSection/PasswordsSection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PasswordsSection/PasswordsSection.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PasswordsSection/PasswordsSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PasswordsSection/PasswordsSection.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-BlackItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-BlackItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-LightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-MediumItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/Gordita-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/gordita/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1b346iURZTTfr2o6fMJmdAPOs3T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aurim\WebstormProjects\nordpassreact\src\styles" />
+      <recent name="C:\Users\aurim\WebstormProjects\nordpassreact\src\components\Business" />
+      <recent name="C:\Users\aurim\WebstormProjects\nordpassreact\src\components\PasswordsSection" />
+      <recent name="C:\Users\aurim\WebstormProjects\nordpassreact\src\assets" />
+      <recent name="C:\Users\aurim\WebstormProjects\nordpassreact\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aurim\WebstormProjects\nordpassreact\src" />
+      <recent name="C:\Users\aurim\WebstormProjects\nordpassreact\public" />
+      <recent name="C:\Users\aurim\WebstormProjects\nordpassreact\public\assets" />
+      <recent name="C:\Users\aurim\WebstormProjects\nordpassreact\src\assets" />
+      <recent name="C:\Users\aurim\WebstormProjects\nordpassreact\src\styles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="055be4ca-c015-40ca-8d20-b73786af24a3" name="Default Changelist" comment="" />
+      <created>1587847269284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587847269284</updated>
+      <workItem from="1587847271235" duration="756000" />
+      <workItem from="1588072000789" duration="2665000" />
+      <workItem from="1588086352693" duration="2715000" />
+      <workItem from="1588089222888" duration="19311000" />
+      <workItem from="1588170222841" duration="36464000" />
+      <workItem from="1588321331198" duration="16001000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../nordpass/node_modules/wait-for-expect/lib/toBeInRangeMatcher.d.js" />
+        <option value="$PROJECT_DIR$/../nordpass/node_modules/wait-for-expect/lib/waitForExpect.spec.d.js" />
+        <option value="$PROJECT_DIR$/../nordpass/node_modules/wait-for-expect/lib/index.d.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="43" key="#ESLint" timestamp="1588262093799">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="43" key="#ESLint/0.0.1366.768/-261.-1080.1920.1080@0.0.1366.768" timestamp="1588262093799" />
+    <state x="453" y="-1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588102775583">
+      <screen x="-261" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="453" y="-1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768/-261.-1080.1920.1080@-261.-1080.1920.1080" timestamp="1588102775583" />
+    <state x="429" y="-792" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588101154971">
+      <screen x="-261" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="429" y="-792" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768/-261.-1080.1920.1080@-261.-1080.1920.1080" timestamp="1588101154971" />
+    <state x="317" y="163" key="EditFileWatcherDialog" timestamp="1588072652615">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="317" y="163" key="EditFileWatcherDialog/0.0.1366.768/-261.-1080.1920.1080@0.0.1366.768" timestamp="1588072652615" />
+    <state x="479" y="-784" key="FileChooserDialogImpl" timestamp="1588183763215">
+      <screen x="-261" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="479" y="-784" key="FileChooserDialogImpl/0.0.1366.768/-261.-1080.1920.1080@-261.-1080.1920.1080" timestamp="1588183763215" />
+    <state width="1899" height="157" key="GridCell.Tab.0.bottom" timestamp="1588336064819">
+      <screen x="-261" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="157" key="GridCell.Tab.0.bottom/0.0.1366.768/-261.-1080.1920.1080@-261.-1080.1920.1080" timestamp="1588336064819" />
+    <state width="1345" height="209" key="GridCell.Tab.0.bottom/0.0.1366.768/-261.-1080.1920.1080@0.0.1366.768" timestamp="1588273037488" />
+    <state width="1899" height="157" key="GridCell.Tab.0.center" timestamp="1588336064818">
+      <screen x="-261" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="157" key="GridCell.Tab.0.center/0.0.1366.768/-261.-1080.1920.1080@-261.-1080.1920.1080" timestamp="1588336064818" />
+    <state width="1345" height="209" key="GridCell.Tab.0.center/0.0.1366.768/-261.-1080.1920.1080@0.0.1366.768" timestamp="1588273037488" />
+    <state width="1899" height="157" key="GridCell.Tab.0.left" timestamp="1588336064818">
+      <screen x="-261" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="157" key="GridCell.Tab.0.left/0.0.1366.768/-261.-1080.1920.1080@-261.-1080.1920.1080" timestamp="1588336064818" />
+    <state width="1345" height="209" key="GridCell.Tab.0.left/0.0.1366.768/-261.-1080.1920.1080@0.0.1366.768" timestamp="1588273037488" />
+    <state width="1899" height="157" key="GridCell.Tab.0.right" timestamp="1588336064818">
+      <screen x="-261" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="157" key="GridCell.Tab.0.right/0.0.1366.768/-261.-1080.1920.1080@-261.-1080.1920.1080" timestamp="1588336064818" />
+    <state width="1345" height="209" key="GridCell.Tab.0.right/0.0.1366.768/-261.-1080.1920.1080@0.0.1366.768" timestamp="1588273037488" />
+    <state x="492" y="302" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588272173983">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="492" y="302" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/-261.-1080.1920.1080@0.0.1366.768" timestamp="1588272173983" />
+    <state x="450" y="-820" width="607" height="804" key="find.popup" timestamp="1588337795942">
+      <screen x="-261" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="450" y="-820" width="607" height="804" key="find.popup/0.0.1366.768/-261.-1080.1920.1080@-261.-1080.1920.1080" timestamp="1588337795941" />
+    <state x="362" y="-845" width="672" height="678" key="search.everywhere.popup" timestamp="1588333072588">
+      <screen x="-261" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="362" y="-845" width="672" height="678" key="search.everywhere.popup/0.0.1366.768/-261.-1080.1920.1080@-261.-1080.1920.1080" timestamp="1588333072588" />
   </component>
 </project>

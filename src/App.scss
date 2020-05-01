@@ -1,0 +1,102 @@
+@import url("./fonts/gordita/stylesheet.css");
+@import "components/Variables";
+@import "/./components/Business/Business";
+@import "/./components/Drawer/Drawer";
+@import "/./components/Faq/Faq";
+@import "/./components/Footer/Footer";
+@import "/./components/Hero/Hero";
+@import "/./components/Navbar/Navbar";
+@import "/./components/PasswordsSection/PasswordsSection";
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #EDF8F7;
+  font-family: $font_family_1;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.35px;
+}
+
+h2 {
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  justify-content: center;
+  font-size: 40px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: -0.15px;
+}
+
+select, button {
+  @include breakpoint(mobile) {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-bottom: 3rem;
+  }
+  padding: 12px 24px;
+  background: $color_2;
+  border: 0;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  font-family: $font_family_1;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: $color_1;
+  transition-duration: .3s;
+  touch-action: manipulation;
+  cursor: pointer;
+
+  &:hover {
+    background: #80CBC8;
+    text-decoration: none;
+  }
+
+  &:active {
+    background: #80CBC8;
+    text-decoration: none;
+  }
+}
+
+
+.nordpass-image {
+  @include breakpoint(mobile) {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  @include breakpoint(medium) {
+    display: flex;
+    width: 100%;
+    min-width: 450px;
+    max-width: 550px;
+    margin-top: 2rem;
+  }
+}
+
+.layout {
+  @include breakpoint(mobile) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  @include breakpoint(medium) {
+    display: grid;
+    text-align: left;
+    flex-direction: row;
+  }
+}

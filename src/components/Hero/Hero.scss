@@ -1,0 +1,9 @@
+@import "./src/components/Mixin.scss";
+
+.hero-grid-left {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.hero-grid-right {
+  grid-area: 1 / 2 / 2 / 3;
+}
