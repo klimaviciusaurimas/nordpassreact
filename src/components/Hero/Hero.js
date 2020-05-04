@@ -1,15 +1,23 @@
 import React from 'react';
+import {Flex, Box, Image} from "@chakra-ui/core";
 
-const hero = props => (
-    <div>
-        <div className="layout">
-            <div className="hero-grid-left">
-                <h1>Get your passwords <br/> organized</h1>
-                <button>Get started</button>
-            </div>
-            <img className="hero-grid-right nordpass-image" src='assets/np-hero-image.png' alt="hero-image"/>
-        </div>
-    </div>
-);
+function Hero() {
+    const property = {
+        imageUrl: "assets/np-hero-image.png",
+        imageAlt: "NordPass laptop and phone",
+    };
 
-export default hero;
+    return (
+        <Flex className="layout background-fade" pt="5%" pb="5%">
+            <Box p={[2, 4, 6, 8]}>
+                <h2>Get your passwords <br/> organized</h2>
+                <button className="main-buttons">Get started</button>
+            </Box>
+            <Box>
+                <Image src={property.imageUrl} alt={property.imageAlt} maxW="xl" className="nordpass-hero-image"/>
+            </Box>
+        </Flex>
+    );
+}
+
+export default Hero;

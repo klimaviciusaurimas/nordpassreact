@@ -1,3 +1,4 @@
+@import "./src/components/Variables.scss";
 @import "./src/components/Mixin.scss";
 
 .navbar {
@@ -19,9 +20,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: white;
+  background: $color_1;
   height: 60px;
-  border-bottom: solid 0.5px grey;
+  border-bottom: solid 0.5px $color_10;
 }
 
 .nav-link {
@@ -30,7 +31,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  color: #151922;
+  color: $color_9;
   padding: 0 .8rem 0 .8rem;
 }
 
@@ -52,10 +53,9 @@
   display: flex;
   position: fixed;
   left: 5%;
-  margin-left: 0.5rem;
 
   a {
-    color: #151922;
+    color: $color_9;
     text-decoration: none;
     font-size: 1.5rem;
   }
@@ -70,16 +70,16 @@
   }
 
   a {
-    color: #151922;
+    color: $color_9;
     text-decoration: none;
 
     &:hover {
-      color: #43A5A1;
+      color: $color_2;
       text-decoration: none;
     }
 
     &:active {
-      color: #43A5A1;
+      color: $color_2;
       text-decoration: none;
     }
   }
@@ -91,7 +91,7 @@ a {
 
 .nav-button {
   border: 0;
-  background: #43A5A1;
+  background: $color_2;
   font-style: normal;
   font-weight: bold;
   text-align: center;
@@ -100,15 +100,15 @@ a {
   line-height: 20px;
   padding: 5px 15px;
   margin-top: -4px;
-  color: white;
+  color: $color_1;
 
   &:hover {
-    background: #80CBC8;
+    background: $color_7;
     text-decoration: none;
   }
 
   &:active {
-    background: #80CBC8;
+    background: $color_7;
     text-decoration: none;
   }
 }

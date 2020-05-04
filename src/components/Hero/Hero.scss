@@ -1,9 +1,16 @@
 @import "./src/components/Mixin.scss";
 
-.hero-grid-left {
-  grid-area: 1 / 1 / 2 / 2;
-}
-
-.hero-grid-right {
-  grid-area: 1 / 2 / 2 / 3;
+.nordpass-hero-image {
+  @include breakpoint(mobile) {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  @include breakpoint(medium) {
+    display: flex;
+    min-width: 500px;
+    max-width: 600px;
+    margin-top: 2rem;
+  }
 }

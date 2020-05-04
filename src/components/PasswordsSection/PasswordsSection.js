@@ -1,6 +1,7 @@
 import React from 'react';
 import './PasswordsSection.scss'
 import {useTable, useSortBy, usePagination} from 'react-table'
+import Flex from "@chakra-ui/core/dist/Flex";
 
 function Table({columns, data}) {
 
@@ -21,9 +22,9 @@ function Table({columns, data}) {
     );
 
     return (
-        <>
-            <h2>Top leaked passwords</h2>
-            <table {...getTableProps()}>
+        <Flex direction="column" pr={["0", "10%", "15%", "20%"]} pl={["0", "10%", "15%", "20%"]}>
+            <h3>Top leaked passwords</h3>
+            <table {...getTableProps()} >
                 <thead>
                 {headerGroups.map(headerGroup => (
                     <tr {...headerGroup.getHeaderGroupProps()}>
@@ -50,7 +51,7 @@ function Table({columns, data}) {
 
             <div className=" button-section">
                 <select
-                    className="count-select"
+                    className="count-select main-buttons"
                     value={pageSize}
                     onChange={e => {
                         setPageSize(Number(e.target.value))
@@ -64,7 +65,7 @@ function Table({columns, data}) {
                 </select>
             </div>
 
-        </>
+        </Flex>
     )
 }
 

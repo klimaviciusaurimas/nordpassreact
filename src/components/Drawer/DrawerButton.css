@@ -1,27 +1,17 @@
-.toggle-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 24px;
-  width: 30px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  box-sizing: border-box;
-  position: fixed;
-  top: 18px;
-  right: 5%;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import "./src/components/Variables.scss";
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   drawerbutton.scss 1:9  root stylesheet */
 
-.toggle-button:focus {
-  outline: none;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"./src/components/Variables.scss\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   drawerbutton.scss 1:9  root stylesheet";
 }
-
-.toggle-button-line {
-  width: 25px;
-  height: 3px;
-  background: black;
-}
-
-/*# sourceMappingURL=DrawerButton.css.map */

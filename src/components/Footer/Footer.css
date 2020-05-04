@@ -1,39 +1,17 @@
-.footer {
-  display: grid;
-  background: white;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import "./src/components/Variables.scss";
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   footer.scss 1:9  root stylesheet */
 
-p {
-  font-size: 12px;
-  line-height: 20px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"./src/components/Variables.scss\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   footer.scss 1:9  root stylesheet";
 }
-
-.engage {
-  color: #B9BABD;
-}
-
-a {
-  color: #383C43;
-}
-
-.copyright {
-  font-size: 10px;
-  line-height: 13px;
-  margin-bottom: 10px;
-}
-
-.footer-grid-left {
-  grid-area: 5/1/6/2;
-  margin: 3rem 5rem;
-}
-
-.footer-grid-right {
-  grid-area: 5/2/6/3;
-  margin: 7rem 0 0 50%;
-}
-
-/*# sourceMappingURL=Footer.css.map */

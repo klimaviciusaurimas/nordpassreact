@@ -1,3 +1,5 @@
+@import "./src/components/Variables.scss";
+
 .toggle-button {
   display: flex;
   flex-direction: column;
@@ -21,5 +23,5 @@
 .toggle-button-line {
   width: 25px;
   height: 3px;
-  background: black;
+  background: $color_9;
 }

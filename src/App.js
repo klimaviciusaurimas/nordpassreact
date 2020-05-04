@@ -1,3 +1,5 @@
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
 import React, {Component} from 'react';
 import Navbar from './components/Navbar/Navbar'
 import Drawer from './components/Drawer/Drawer'
@@ -8,6 +10,7 @@ import Faq from './components/Faq/Faq'
 import Business from './components/Business/Business'
 import Footer from './components/Footer/Footer'
 import './App.scss'
+import {ThemeProvider} from "@chakra-ui/core";
 
 
 class App extends Component {
@@ -32,18 +35,20 @@ class App extends Component {
             toggleOff = <DrawerOffButton drawerOffHandler={this.drawerOffClickHandler}/>
         }
         return (
-            <div className="App">
-                <Navbar drawerClickHandler={this.drawerToggleClickHandler}/>
-                <Drawer show={this.state.drawerOpen}/>
-                {toggleOff}
-                <main style={{marginTop: '64px', padding: '5%'}}>
-                    <Hero/>
-                    <PasswordsSection/>
-                    <Faq/>
-                    <Business/>
-                </main>
-                <Footer/>
-            </div>
+            <ThemeProvider>
+                <div className="App">
+                    <Navbar drawerClickHandler={this.drawerToggleClickHandler}/>
+                    <Drawer show={this.state.drawerOpen} drawerOffHandler={this.drawerOffClickHandler}/>
+                    {toggleOff}
+                    <main style={{marginTop: '60px'}}>
+                        <Hero/>
+                        <PasswordsSection/>
+                        <Faq/>
+                        <Business/>
+                    </main>
+                    <Footer/>
+                </div>
+            </ThemeProvider>
         );
     }
 }

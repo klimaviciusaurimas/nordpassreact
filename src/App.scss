@@ -4,18 +4,25 @@
 @import "/./components/Drawer/Drawer";
 @import "/./components/Faq/Faq";
 @import "/./components/Footer/Footer";
-@import "/./components/Hero/Hero";
 @import "/./components/Navbar/Navbar";
+@import "/./components/Hero/Hero";
 @import "/./components/PasswordsSection/PasswordsSection";
 
 body {
   padding: 0;
   margin: 0;
-  background: #EDF8F7;
   font-family: $font_family_1;
 }
 
-h1 {
+h2 {
+  @include breakpoint(mobile) {
+    font-size: 38px;
+    line-height: 54px;
+  }
+  @include breakpoint(medium) {
+    font-size: 48px;
+    line-height: 64px;
+  }
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -23,8 +30,15 @@ h1 {
   letter-spacing: -0.35px;
 }
 
-h2 {
-  display: flex;
+h3 {
+  @include breakpoint(mobile) {
+    font-size: 36px;
+    line-height: 47px;
+  }
+  @include breakpoint(medium) {
+    font-size: 40px;
+    line-height: 53px;
+  }
   font-style: normal;
   font-weight: bold;
   justify-content: center;
@@ -34,7 +48,7 @@ h2 {
   letter-spacing: -0.15px;
 }
 
-select, button {
+.main-buttons {
   @include breakpoint(mobile) {
     display: inline-block;
     align-items: center;
@@ -59,31 +73,22 @@ select, button {
   cursor: pointer;
 
   &:hover {
-    background: #80CBC8;
+    background: $color_7;
     text-decoration: none;
   }
 
   &:active {
-    background: #80CBC8;
+    background: $color_7;
     text-decoration: none;
   }
 }
 
-
-.nordpass-image {
-  @include breakpoint(mobile) {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  @include breakpoint(medium) {
-    display: flex;
-    width: 100%;
-    min-width: 450px;
-    max-width: 550px;
-    margin-top: 2rem;
-  }
+.background-fade {
+  background-image: linear-gradient(
+                  to bottom,
+                  $color_3 90%,
+                  $color_1
+  );
 }
 
 .layout {
@@ -92,6 +97,7 @@ select, button {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
     width: 100%;
   }
   @include breakpoint(medium) {

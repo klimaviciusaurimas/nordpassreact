@@ -1,61 +1,17 @@
-.drawer {
-  height: 100%;
-  background: white;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  max-width: 100%;
-  z-index: 200;
-  padding-left: 5%;
-  transform: translateY(-100%);
-  transition: transform 0.5s ease-out;
-}
-.drawer ul {
-  height: 60%;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: fixed;
-  top: 15%;
-}
-.drawer li {
-  margin: 1rem 0;
-  display: flex;
-}
-.drawer a {
-  color: black;
-  text-decoration: none;
-}
-.drawer a:hover {
-  color: #43A5A1;
-  text-decoration: none;
-}
-.drawer a:active {
-  color: #43A5A1;
-  text-decoration: none;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import "./src/components/Variables.scss";
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   drawer.scss 1:9  root stylesheet */
 
-.drawer.open {
-  transform: translateY(0);
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"./src/components/Variables.scss\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   drawer.scss 1:9  root stylesheet";
 }
-
-.navbar-logo-drawer {
-  position: fixed;
-  top: 15px;
-  padding-left: 25px;
-}
-
-.drawer-logo {
-  margin-top: 20px;
-}
-
-@media (min-width: 769px) {
-  .drawer {
-    display: none;
-  }
-}
-
-/*# sourceMappingURL=Drawer.css.map */
